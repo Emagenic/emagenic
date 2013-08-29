@@ -65,14 +65,15 @@ section .servicios_izquierdo
 {
 	float: left;
 	height: 218px;
-	margin: auto;
-	width: 50%;
+	margin: 0;
+	padding-right: 2%;
+	width: 48%;
 }
 section .servicios_derecho
 {
 	float: right;
 	height: 218px;
-	margin: auto;
+	margin: 0;
 	width: 50%;
 }
 section #icono_servicio img
@@ -161,7 +162,7 @@ section p
 {
 	font-family: "Roboto", arial;
 	font-size: 14px;
-	margin: 50 10 10 10;
+	margin: 50 20 10 10;
 	color: #363636;
 }
 .vermas
@@ -175,7 +176,7 @@ section p
 	text-align: center;
 	width: 80px;
 	margin-left: 200px;
-	padding-top: 3px;
+	padding-top: 2px;
 	
 }
 .separador 
