@@ -55,6 +55,18 @@ footer
 	height: 200px;
 	width: 100%;
 }
+footer #contenido_footer
+{ 
+	height: 200px;
+	margin: auto;
+	width: 32%;
+}
+footer #contenido_footer img
+{
+	padding-top: 30px;
+	margin: auto 10px;
+	width: 44px;
+}
 section #contenido_portafolio
 {
 	height: 300px;
