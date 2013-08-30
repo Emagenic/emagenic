@@ -104,6 +104,22 @@ section p
 	margin: 10 0 0 0;
 
 }
+section #contenido_nosotros 
+{ 
+	height: 270px;
+	margin: auto;
+	padding-top: 30px;
+	width: 90%;
+
+
+}
+section #ipad img
+{ 
+	
+	float: right;
+	width: 447px;
+	margin-top: -90px;
+}
 #contacto
 {
 	height: 420px;
@@ -115,6 +131,7 @@ section p
 	height: 270px;
 	width: 100%;
 }
+
 #portafolio
 {
 	background-color: #f64747; 
@@ -198,7 +215,11 @@ section p
 	height: 50px; 
 }
 /* separador para los servicios */
-
+.nosotrosxciento
+{
+	width: 50%;
+	float: left;
+}
 
 
 
