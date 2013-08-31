@@ -18,8 +18,8 @@ body
 h2
 {
 	color: white;
-	font-family: "Roboto", arial;
-	font-size: 20px;
+	font-family: "Roboto";
+	font-size: 18px;
 	margin: 0;
 	font-style: normal;	
 	text-decoration: none;
@@ -99,7 +99,6 @@ section #icono_servicio img
 	height: 180px;
 	padding-top: 20px;	
 	padding-right: 20px;
-
 }
 section p 
 {
@@ -107,7 +106,7 @@ section p
 	font-family: "Roboto", arial;
 	font-size: 14px;
 	margin: 10 0 0 0;
-
+	line-height: 20px;
 }
 section #contenido_nosotros 
 { 
@@ -115,12 +114,9 @@ section #contenido_nosotros
 	margin: auto;
 	padding-top: 30px;
 	width: 90%;
-
-
 }
 section #ipad img
 { 
-	
 	float: right;
 	width: 447px;
 	margin-top: -90px;
@@ -170,8 +166,6 @@ section #ipad img
 	padding-top: 100px;
 	float: right;
 	width: 50%;	
-	position: relative;
-	z-index: 
 }
 .portafolio_izquierdo
 {
@@ -182,7 +176,7 @@ section #ipad img
 }
 .texto_portafolio
 {
-	font-family: "Roboto", arial;
+	font-family: "Roboto";
 	font-size: 14px;
 	margin: auto;
 	color: #F64647;
@@ -213,8 +207,7 @@ section #ipad img
 	text-align: center;
 	width: 80px;
 	margin-left: 200px;
-	padding-top: 2px;
-	
+	padding-top: 2px;	
 }
 /* separador para los servicios */
 .separador 
