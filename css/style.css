@@ -99,7 +99,7 @@ section #icono_servicio img
 	height: 180px;
 	padding-top: 20px;	
 	padding-right: 20px;
-	position: relative;
+
 }
 section p 
 {
@@ -170,6 +170,8 @@ section #ipad img
 	padding-top: 100px;
 	float: right;
 	width: 50%;	
+	position: relative;
+	z-index: 
 }
 .portafolio_izquierdo
 {
@@ -218,7 +220,7 @@ section #ipad img
 .separador 
 {
 	width: 100%;
-	height: 50px; 
+	height: 80px; 
 }
 /* separador para los servicios */
 .nosotrosxciento
