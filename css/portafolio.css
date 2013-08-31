@@ -74,8 +74,62 @@ section p
 	margin: 10 0 0 0;
 	line-height: 20px;
 }
-#contenido_portafolio
+#portafolio
 {
 	height: 1000px;
+	padding-top: 140px;
 	width: 100%;
 }
+#contenido_portafolio
+{
+	width: 90%;
+	margin: auto;
+}
+.sitio_portafolio
+{
+	width: 225px;
+	height: 325px;
+	margin: 10px 25px;
+	float: left;
+}
+img 
+{
+	width: 225px;
+}
+h3
+{
+	color: #29292a;
+	font-family: "Roboto";
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+	font-style: normal;	
+	text-decoration: none;
+}
+p
+{
+	color: #29292a;
+	font-family: "Roboto";
+	font-size: 14px;
+	margin: 0;
+	font-style: normal;	
+	text-decoration: none;
+	line-height: 20px;
+}
+.versitio
+{
+	font-family: "Roboto", arial;
+	font-size: 12px;
+	color: white;
+	background-color: #f64747;
+	border-radius: 10px;
+	height: 15px;
+	text-align: center;
+	width: 80px;
+	margin-left: 200px;
+	padding-top: 2px;	
+}
+
+
+
