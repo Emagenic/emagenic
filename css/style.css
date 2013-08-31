@@ -22,12 +22,15 @@ h2
 	font-size: 20px;
 	margin: 0;
 	font-style: normal;	
+	text-decoration: none;
 }
 header
 {
 	background-color: #29292a;
 	height: 86px;
 	width: 100%;
+	position: fixed;
+	box-shadow: 0px 0px 1px 1px #29292a;
 }
 header nav
 {
@@ -44,6 +47,7 @@ header nav figure
 	padding-top: 24px;
 	padding-left: 14px;
 	width: 119px;
+	box-shadow: 0px 0px 1px 1px #c6453e;
 }
 header nav figure img
 {
