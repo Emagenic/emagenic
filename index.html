@@ -8,29 +8,85 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/formulario.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styleslide.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<header>
 		<nav>
+       	  <p><a href="#" class="textmenu">inicio</a></p>
+       	  <p><a href="#" class="textmenu">nosotros</a></p>
+       	  <p><a href="#" class="textmenu">servicios</a></p>
 			<figure>
 				<img src="imagenes/logo.png">
 			</figure>
+          <p><a href="#" class="textmenu">portafolio</a></p>
+       	  <p><a href="#" class="textmenu">ubicación</a></p>
+       	  <p><a href="#" class="textmenu">contacto</a></p>
 		</nav>
 	</header>
-	<aside></aside>
-	<section id="nosotros">
-		<div id="contenido_nosotros">
-			<h2>Emagenic</h2>
-			<p class="nosotrosxciento">Emagenic es una joven empresa formada por profesionales del área de Informática y Diseño Gráfico 
-            que se especializa y tiene como principal producto el desarrollo de sitios web a medida y Diseño Gráfico 
-            corporativo. Paralelo a esto tenemos como productos secundarios la instalación de cámaras CCTV, 
-            soporte computacional, desarrollo de software y servidores web Linux. Nuestras instalaciones
-            están ubicadas en la ciudad de Rancagua, sexta región Chile.</p>
-			<div id="ipad">
-				<img src="imagenes/ipad.png">
-			</div>
+	<aside>
+    
+    
+    
+    <div id="headerimgs">
+		<div id="headerimg1" class="headerimg"></div>
+		<div id="headerimg2" class="headerimg"></div>
+	</div>
+	<div id="nav-outer">
+	</div>
+	<div id="headernav-outer">
+		<div id="headernav">
+			<div id="back" class="btn"></div>
+			<div id="control" class="btn"></div>
+			<div id="next" class="btn"></div>
 		</div>
-	</section>
+	</div>
+	<div id="headertxt">
+		<p class="caption">
+			<span id="firstline"></span>
+			<a href="#" id="secondline"></a>
+		</p>
+		<p class="pictured">
+			Pictured:
+			<a href="#" id="pictureduri"></a>
+		</p>
+	</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </aside>
+    
+     <section id="nosotros">
+            <article id="articlenosotros">
+                <h2 id="titulo">
+                    EMAGENIC
+                </h2>
+                <p id="textoquienesomos">
+                    Nuestra especialidad es el desarrollo de sitios web a medida basándonos en un plan publicitario elaborado de acuerdo a su negocio, el mercado y la industria que lo rodea. Todos los negocios son diferentes es por esto que su presentación en internet debe ser única, un sitio web es la mejor herramienta para presentar sus productos y servicios al mundo, es por esto que debe ser de calidad.
+                </p>
+                <div>
+                    <iframe width="367" height="276" src="http://www.youtube.com/embed/9ZGq9S7s0Pk?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>   
+    
+    
+
+	
+			
+
+    
+    
+    
+    
+    
 	<section id="servicios">
 		<div class="separador"></div>
 		<div class="servicios_izquierdo">
@@ -48,9 +104,8 @@
 				<img src="imagenes/servicios/disenografico.png">
 			</div>
 			<p class="titulo_servicios">&nbsp;</p>
-			<p class="titulo_servicios">DESARROLLO GRÁFICO</p>
-            <p class="contenido_servicios"> Hoy en día la organización que no tiene su 
-            portal en internet prácticamente no existe.</p>
+			<p class="titulo_servicios">DISEÑO GRÁFICO</p>
+            <p class="contenido_servicios"> La imagen corporativa y todo lo que la compone debe ser diseñada por profesionales.</p>
             <div class="vermas"> ver mas </div>
 		</div>
 		<div class="servicios_izquierdo">
@@ -59,28 +114,25 @@
 			</div>
 			<p class="titulo_servicios">&nbsp;</p>
 			<p class="titulo_servicios">WEB HOSTING</p>
-            <p class="contenido_servicios"> Hoy en día la organización que no tiene su 
-            portal en internet prácticamente no existe.</p>
+            <p class="contenido_servicios"> Un hosting de calidad es clave para la estabilidad del sitio, aplicaciones y correos.</p>
             <div class="vermas"> ver mas </div>
 		</div>
 		<div class="servicios_derecho">
 			<div id="icono_servicio">
-				<img src="imagenes/servicios/camaras.png">
+				<img src="imagenes/servicios/redes.png">
 			</div>
 			<p class="titulo_servicios">&nbsp;</p>
-			<p class="titulo_servicios">CÁMARAS IP Y CCTV</p>
-            <p class="contenido_servicios"> Hoy en día la organización que no tiene su 
-            portal en internet prácticamente no existe.</p>
+			<p class="titulo_servicios">REDES SOCIALES</p>
+            <p class="contenido_servicios"> La presencia de su organización en las redes sociales es vital, pero mas aun es definir en cuales</p>
             <div class="vermas"> ver mas </div>
 		</div>
 		<div class="servicios_izquierdo">
 			<div id="icono_servicio">
-				<img src="imagenes/servicios/soportecomputacional.png">
+				<img src="imagenes/servicios/aplicacionesmoviles.png">
 			</div>
 			<p class="titulo_servicios">&nbsp;</p>
-			<p class="titulo_servicios">SOPORTE COMPUTACIONAL</p>
-            <p class="contenido_servicios"> Hoy en día la organización que no tiene su 
-            portal en internet prácticamente no existe.</p>
+			<p class="titulo_servicios">APLICACIONES MOVILES</p>
+            <p class="contenido_servicios"> Necesita acceder a información desde sus moviles, desarrollemos una a medida.</p>
             <div class="vermas"> ver mas </div>
 		</div>
 		<div class="servicios_derecho">
@@ -89,8 +141,7 @@
 			</div>
 			<p class="titulo_servicios">&nbsp;</p>
 			<p class="titulo_servicios">DESARROLLO DE SOFTWARE</p>
-            <p class="contenido_servicios"> Hoy en día la organización que no tiene su 
-            portal en internet prácticamente no existe.</p>
+            <p class="contenido_servicios"> No transforme su gestión a la medida de un software, desarrolle un software a medida de su gestión.</p>
             <div class="vermas"> ver mas </div>
 		</div>
 	</section>
@@ -103,7 +154,7 @@
       </div>
       <div class="portafolio_derecho">
         <div id="revisar_portafolio">
-          <p class="texto_portafolio">REVISAR EL PORTAFOLIO</p>
+          <p class="texto_portafolio"><a href="portafolio.html" class="texto_portafolio">REVISAR EL PORTAFOLIO</a></p>
         </div>
       </div>
     </div>
@@ -125,7 +176,7 @@
 			<p>
 			<input class="texto_enviar" name="Enviar" type="submit"  id="enviar" value="Enviar Mensaje" />
 			</div
-            </p>
+            ></p>
 			<p>
 			<textarea class="input2" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje"></textarea>
 		    </p>
